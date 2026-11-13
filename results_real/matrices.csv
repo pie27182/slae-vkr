@@ -1,0 +1,4 @@
+matrix,group,area,n,nnz,nnz_per_row,symmetric,symmetry_error_inf,positive_definite_metadata,zero_diagonal,diag_dominant_rows_fraction,file_sha256,status
+bcsstk14,BCSSTRUC2,structural engineering,1806,63454,35.135105204872644,True,0.0,True,0,0.313953488372093,68e263d540c7be28aa9345387118e47201a6b935d3443fb98d0a8cac7731efaa,loaded
+bp__1000,SMTAPE,simplex basis matrix,822,4661,5.670316301703163,False,238.95,False,818,0.0,5e466e036b03070b51a66c58a08ab4c9ea0a83c823711409f62af4e6b6f110dc,loaded
+nos4,LANPRO,finite-element beam structure,100,594,5.94,True,0.0,True,0,0.07,adc4b8cf5c09234f44baa37439e29b313913ea34686904af677955ecdf4edc8a,loaded

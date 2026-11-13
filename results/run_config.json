@@ -1,0 +1,97 @@
+{
+  "profile": "full",
+  "initial_seed": 4085356793,
+  "seed_derivation": "начальные значения детерминированно получаются из общего значения, номера серии и параметров",
+  "tolerance": 1e-08,
+  "library_threads_detected": 8,
+  "series": [
+    "dense",
+    "iterative_methods",
+    "accuracy",
+    "conjugate_gradient_condition",
+    "poisson",
+    "tridiagonal",
+    "sparse",
+    "multiple_right_hand_sides",
+    "library_threads",
+    "timing_variability"
+  ],
+  "sizes": {
+    "dense_sizes": [
+      25,
+      50,
+      100,
+      200,
+      400,
+      800,
+      1200
+    ],
+    "pure_max": 200,
+    "numpy_gauss_max": 800,
+    "svd_max": 800,
+    "iter_sizes": [
+      50,
+      100,
+      200,
+      400
+    ],
+    "cond_n": 100,
+    "cond_exponents": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "cond_repeats": 5,
+    "pivot_sizes": [
+      25,
+      50,
+      100,
+      200,
+      400
+    ],
+    "pivot_repeats": 10,
+    "poisson_N": [
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "poisson_stationary_max_N": 64,
+    "tri_sizes": [
+      100,
+      300,
+      1000,
+      3000,
+      10000,
+      30000,
+      100000,
+      300000
+    ],
+    "tri_dense_max": 3000,
+    "sparse_sizes": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000,
+      100000
+    ],
+    "sparse_lu_max": 8000,
+    "right_hand_side_n": 800,
+    "right_hand_side_counts": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50
+    ],
+    "budget": 1.5
+  }
+}

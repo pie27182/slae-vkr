@@ -1,0 +1,4 @@
+group,name,nrows,ncols,nnz,isReal,isBinary,isND,posdef,pattern_symmetry,numerical_symmetry,kind,status,error,sha256
+LANPRO,nos4,100,100,594,1,0,,true,,,finite-element beam structure,ok,,adc4b8cf5c09234f44baa37439e29b313913ea34686904af677955ecdf4edc8a
+BCSSTRUC2,bcsstk14,1806,1806,63454,1,0,,true,,,structural engineering,ok,,68e263d540c7be28aa9345387118e47201a6b935d3443fb98d0a8cac7731efaa
+SMTAPE,bp__1000,822,822,4661,1,0,,false,,,simplex basis matrix,ok,,5e466e036b03070b51a66c58a08ab4c9ea0a83c823711409f62af4e6b6f110dc
